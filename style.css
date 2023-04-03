@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  /* border: solid red 1px; */
+}
+
+html,
+body {
+  height: auto;
+  width: 100vw;
+  min-height: 100vh;
+  background: url("assets/blackpink-bg.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Delicious Handrawn';
+  /* font-family: 'Poppins', sans-serif; */
+  color: #fff;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 600px;
+    width: 500px;
+    background-color: #581845 ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+
+}
+
+.title {
+    font-size: 40px;
+    margin: 20px 0;
+  }
+
+  section {
+    height: 90px;
+    width: 400px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #152238;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(15, 1, 1, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   gap: 5px ;
+
+  }
+
+input {
+width: fit-content;
+}
+
+  input,
+textarea {
+    font-family: 'Delicious Handrawn';
+  font-size: 20px;
+  width: 100%;
+  padding-left: 5px;
+  border: 5px solid #581845;
+  border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+
+
+  .input-label {
+    color: white;
+     
+    font-size: 22px;
+    font-weight: 1000px;
+    font-family: 'Delicious Handrawn';
+    
+
+  }
+
+  .middle-main {
+    /* height: 30px; */
+    width: 100%;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: start;
+    gap:20px;
+  
+    
+  }
+  
+  .bi-plus-square-fill {
+    margin-top: -5px;
+    font-size: 30px;
+    background-color: #152238;
+    border-radius: 10px;
+  }
+
+  .bi-plus-square-fill:hover{
+    color: #581845;
+  }
+
+  li {
+    color: white;
+    font-size: 25px;
+    font-weight: 1000px;
+    font-family: 'Delicious Handrawn';
+
+     
+  }
+
+  #resultToDoList {
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+
+  #ListContainer {
+    padding-left: 5px;
+ width: 90%;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* background-color:#581845; */
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+  }
+  
+  .bi-file-earmark-x-fill:hover{
+    color: grey;
+  }
+
+  .bi-pencil-square:hover{
+    color: grey;
+  }
+
+  .custom-list-item {
+    padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #581845;
+    border-radius: 10px;
+  }
+
+  .task-done {
+     
+      text-decoration: line-through;
+      text-decoration-color: red;
+      text-decoration-thickness: 5px;
+    
+  }
